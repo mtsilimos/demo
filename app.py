@@ -1,2 +1,4 @@
 import streamlit as st
-st.write("Hi")
+
+x = st.text_area("write")
+st.write(x)
